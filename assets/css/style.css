@@ -1,0 +1,195 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.nav__list__items{
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+    height: 70px;
+    background-color: #BDE5F1
+}
+
+.nav__list__items a{
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Ruda';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    padding-left: 55px;
+}
+
+.nav__list__items--negrita{
+    font-family: 'Ruda';
+    font-style:normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    font-feature-settings: 'pnum' on, 'onum' on;
+    margin-top: 15px;
+    margin-left: 5px;
+
+color: #000000;
+
+}
+
+.header__title{
+    height: 95px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 26px;
+    margin-right: 26px;
+    margin-bottom: 40px;
+    background-color: #526F71;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    width: 500px;
+    height: 160px;
+    left: 470px;
+    top: 154px;
+}
+
+.header__title h1{
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    
+}
+.header__title h3{
+    margin-top: 3px;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: start;
+    padding: 10px;
+    margin-left: 10px;
+    
+}
+
+section {
+    text-align: center;
+    background-image: url(https://cdn.pixabay.com/photo/2017/04/22/18/42/white-sand-beach-2252020_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 920px;
+    position: absolute;
+    left: 0px;
+}
+
+.form{
+    margin: 8px;
+    display: inline-block;
+    
+}
+
+.form__box{
+    position: absolute;
+    width: 755px;
+    height: 210px;
+    left: 346px;
+    top: 414px;
+    background: rgba(255, 255, 255, 0.75);
+    opacity: 75%;
+    z-index: 1;
+}
+
+.form__element{
+    margin: 10px;
+    color: black;
+    opacity: 100%;
+    font-family: 'Ruda', sans-serif;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    font-feature-settings: 'pnum' on, 'onum' on;
+    margin-top: 20px;
+
+
+}
+.form__element__label{
+    margin-left: 50px;
+    box-sizing: border-box;
+
+
+}
+
+.form__element__label2{
+    margin-left: 135px;
+}
+
+.form__element__number{
+    width: 40px;
+}
+
+
+button{
+    position: absolute;
+    width: 192px;
+    height: 53px;
+    left: 624px;
+    top: 711px;
+    background: #52728E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    font-feature-settings: 'pnum' on, 'onum' on;
+    border-color: #52728E;
+}
+
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 68px;
+    left: 0px;
+    top: 956px;
+    background: #BDE5F1;
+
+}
+
+.footer__items{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    font-feature-settings: 'pnum' on, 'onum' on;
+    margin-top: 24px !important;
+
+}
+
+.footer__items__social{
+    display: flex;
+    margin-right: 15px;
+}
+
+.footer__items__social__element{
+    margin-right: 6px;
+}
+
+.footer__items{
+display: flex;
+margin-left: 20px;
+margin-top: 1px;
+
+}
